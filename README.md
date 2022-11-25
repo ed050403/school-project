@@ -1,2 +1,0 @@
-# school-project
-grading system
