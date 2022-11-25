@@ -1,17 +1,22 @@
-print ("RANKING SYSTEM FOR 1ST SEMESTER ")
+print ("RANKING SYSTEM IN 1ST SEMESTER ")
 
 name = input("Enter your name : ")
 section = input("Enter your section : ")
 
 print("\nPlease put your grades in every subject.")
 
-sub1 = int(input("\nEthics : "))
-sub2 = int(input("Understanding the Self : "))
-sub3 = int(input("Mathematics in the Modern World : "))
-sub4 = int(input("Computer Programming 1 : "))
+sub1 = float(input("Ethics : "))
+sub2 = float(input("Understanding the Self : "))
+sub3 = float(input("Mathematics in the Modern World : "))
+sub4 = float(input("Computer Programming 1 : "))
+sub5 = float(input("English 212:"))
+sub6 = float(inpt("Porpusive Communication :"))
+sub7 = float(input("Introducton To computing :"))
+sub8 = float(input("Nationa Service Program 1 :"))
+sub9 = float(inpt("Movement Enhancement :"))
 
-sum = sub1 + sub2 + sub3 + sub4
-average = (sum) /4
+sum = sub1 + sub2 + sub3 + sub4 + sub5 +sub6 + sub7 + subb8 + sub9
+average = (sum) /9
 
 print("\nName :",name)
 print("Section : ",section)
